@@ -1,0 +1,15 @@
+body {
+   display: flex;
+   min-height: 100vh;/*esto lo saqué de inicializar cosas, del var y otro*/
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+.brand-logo,img{/*le pongo el puntito poruqe es una clase y img 
+para que sepa que me refiero a la clase
+	voy a editarlo */
+	width: 100px;
+	height: 50px; /*aquí para hacerlo respnsivo se pone auto*/
+ }
